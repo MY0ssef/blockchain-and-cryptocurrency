@@ -117,7 +117,11 @@ class CurrencyConverter extends EventEmitter {
 
 // All prices listed are in USD
 // write here your JSON File Path (rates.json)
+<<<<<<< HEAD
 const PATH = 'D:\gamaa'
+=======
+const PATH = 'D:\gamaa\rates.json'
+>>>>>>> a2201b9 (add lab2)
 let cnv = new CurrencyConverter(readJsonFromFile(PATH));
 
 console.log(cnv.rates);
